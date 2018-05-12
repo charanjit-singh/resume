@@ -1,0 +1,247 @@
+body {
+	background-color: #e7e7e7;
+}
+
+div.content-container{
+	width: 80%;
+	margin-left: 20%;
+}
+.name{
+	font-family: 'Exo', sans-serif ;
+	font-size: 200%;
+	font-weight: bold;
+	color:#474747;
+}
+.title {
+	font-family: 'Play', sans-serif;
+	font-weight: bold;
+	font-size: 120%;
+	color: #474747;
+}
+.navbar{
+	float: right;
+	margin-right: 20%;
+}
+.navbar a{
+	margin-right: 2px;
+	text-decoration: none;
+	font-family: 'Play', sans-serif;
+	color: #787878;
+	font-size: 120%;
+	font-weight: bold;
+}
+.navbar a:hover{
+	color: #FF124B;
+}
+a.selected{
+ color: #FF124B;
+}
+
+.left-content{
+	width: 35%;
+	float: left;
+}
+.right-content{
+	width: 65%;
+	float: left;
+}
+.round-img{
+	margin-top: 75px;
+	border-radius: 50%;
+	height: 310px;
+	object-fit: cover;
+}
+.content{
+	margin-top: 50px ; 
+
+}
+.right-content h1{
+	font-family: 'Play', sans-serif;
+	color: #474747;
+	font-size: 400%;
+	margin: 20px 0 0 0;
+	font-weight: normal;
+
+}
+.right-content h3{
+	font-family: 'Exo', sans-serif;
+	color: #474747;
+	font-size: 200%;
+	margin-top: 0;
+	margin-left: 20px;
+	padding: 0;
+	font-weight: normal;
+}
+
+.circle-link{
+	width: 25%;
+	float: left;
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	text-align: center;
+	margin-right: 20px;
+	text-decoration: none;
+    transition: background-color 0.5s ease-out;
+}
+
+.bg-1{
+	background-color: #E04E71;
+}
+.bg-2{
+	background-color: #7A4EE0;
+}
+.bg-3{
+	background-color: #4EE05D;
+}
+.circle-link div{
+	
+	margin-top: 50px;
+
+	font-family: 'Play', sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+.circle-link:hover{
+ background-color: #FF124B;
+}
+
+.circle-link div:hover{
+	font-size: 110%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ background-color: #FF124B;
+    color: white;	
+    height: 3px;
+    text-align: center;
+}
+.uper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    width: 100%;
+ background-color: #FF124B;
+    color: white;	
+    height: 1px;
+    text-align: center;
+}
+.circle-holderer{
+	display: inline-block;
+}
+.right-content p{
+
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 100%;
+	color: #474747;
+	margin-left: 20px;
+	padding-right: 20%;
+
+}
+.resume-pane{
+
+width: 80%;
+
+float: left;
+
+}
+.skills-pane{
+
+width: 20%;
+float: left;
+}
+.content-resume{
+	margin-top: 50px;
+	width: 80%;
+}
+.resume-pane h1{
+	font-family: 'Titillium Web',sans-serif;
+	color: #474747;
+	font-size: 350%;
+
+	border-bottom: 2px solid #FF124B;
+
+}
+
+.resume-items > li{
+	/*Border top*/
+
+}
+.resume-items > li > div{
+/*Circle */
+width: 10%;
+float: left;
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	text-align: center;
+	margin-right: 20px;
+	margin-top: 20px;
+    transition: background-color 0.5s ease-out;
+
+}
+.resume-items > li > div >h3{
+	margin-top: 40px;
+	font-family: 'Exo',sans-serif;
+	color: white;
+}
+
+.job > li{
+	width: 75%;
+	float: left;
+	margin-left: 50px;
+	/*padding top down*/
+
+}
+.job > li >h3{
+	/*add job heading styling*/
+	font-family: 'Titillium Web',sans-serif;
+	font-size: 100%;
+	margin-bottom: 0px;	
+	padding-bottom: 0px; 
+}
+.job > li > span{
+	/*add duration spanning here*/
+	font-family: 'Exo', sans-serif;
+	font-size: 80%;
+
+}
+.job > li > p{
+	/*add content spanning here.*/
+	font-family: 'Exo', sans-serif;
+	font-size: 115%;
+}
+ul{
+	list-style: none;
+}
+
+.skills-pane h1{
+	font-family: 'Exo',sans-serif;
+	font-size: 120%;
+	border-bottom: 2px solid #FF124B;
+}
+.skills-pane ul > li{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 520;
+	font-variant: small-caps; 
+}
+.heading-contact{
+	font-family: 'Exo', sans-serif;
+	font-size: 200%;
+	color: #474747;
+	margin-top: 50px;
+	margin-left: 25%;
+}
+.icon-holder >a> i{
+	font-size: 800%;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
